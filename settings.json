@@ -1,14 +1,7 @@
 {
-    // 1) após cada build, executa o “clean”:
     "latex-workshop.latex.autoClean.run": "onBuilt",
-  
-    // 2) habilita limpeza dentro de sub‑pastas, caso você use outDir:
     "latex-workshop.latex.clean.subfolder.enabled": true,
-  
-    // 3) define o método de limpeza (glob para suportar curingas):
     "latex-workshop.latex.clean.method": "glob",
-  
-    // 4) lista de extensões que serão apagadas no “Clean auxiliary files”:
     "latex-workshop.latex.clean.fileTypes": [
       "*.aux",
       "*.bbl",
